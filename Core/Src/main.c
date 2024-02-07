@@ -101,6 +101,7 @@ int main(void)
   MX_I2C1_Init();
   MX_USART1_UART_Init();
   MX_TIM2_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
     uint32_t ADC_Value[2] = {2048, 2048};
     float ADC_Real[2];
@@ -131,22 +132,26 @@ int main(void)
 
     HAL_Delay(100);
 
+    HAL_TIM_Base_Start_IT(&htim3);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
-        HAL_ADC_Start_DMA(&hadc1, (uint32_t *) ADC_Value, 2);
-        ADC_Real[0] = 3.3f * ADC_Value[0] / 4096 - 1.58f;
-        ADC_Real[1] = 3.3f * ADC_Value[1] / 4096 - 1.58f;
+//        HAL_ADC_Start_DMA(&hadc1, (uint32_t *) ADC_Value, 2);
+//        ADC_Real[0] = 3.3f * ADC_Value[0] / 4096 - 1.58f;
+//        ADC_Real[1] = 3.3f * ADC_Value[1] / 4096 - 1.58f;
 //        ADC_Real[0] = ADC_Real[0] / 0.5 / 50;
 //        ADC_Real[1] = ADC_Real[1] / 0.5 / 50;
 
-        FOC_Run(&Motor_2208);
+//        FOC_Run(&Motor_2208);
+
+//    printf("%.2f\n", 180 / PI * Motor_2208.machine_angle);
 
 //        printf("%f, %f\n", ADC_Real[0], ADC_Real[1]);
 
-        HAL_ADC_Stop_DMA(&hadc1);
+//        HAL_ADC_Stop_DMA(&hadc1);
 
 //        Machine_Angle = 360.0f * as5600GetRawAngle() / 4096 - ZeroPoint_Angle;
 //        if (Machine_Angle < 0)Machine_Angle+=360;

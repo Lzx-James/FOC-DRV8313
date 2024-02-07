@@ -189,15 +189,20 @@ void FOC_Run(foc_motor_t *__obj) {
 
     target_angle = (PI * 60 / 180);
 
-    float angle_bias = boundary_process(__obj->machine_angle, target_angle, 2 * PI);
-    float torque = pid_calc(&position_loop,  angle_bias, target_angle);
+//    float angle_bias = boundary_process(__obj->machine_angle, target_angle, 2 * PI);
+//    float torque = pid_calc(&position_loop,  angle_bias, target_angle);
 
-    setTorque(__obj, torque);
+//    setTorque(__obj, torque);
+    setTorque(__obj, 8);
 
 //    printf("%.2f, %.2f, %.2f\n", 180 / PI * __obj->Encoder_ZeroPoint, 180 / PI * __obj->machine_angle, target_angle);
-    printf("%.2f, %.2f, %.2f\n", angle_bias, target_angle, torque);
+//    printf("%.2f, %.2f, %.2f\n", angle_bias, target_angle, torque);
 
     Inv_Park_Trans(__obj);
     SVPWM_Trans(__obj);
 //    printf("%d,%d,%d\n", __obj->svpwm_Ua, __obj->svpwm_Ub, __obj->svpwm_Uc);
+}
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+    static uint8_t a = 0;
+    FOC_Run(&Motor_2208);
 }
