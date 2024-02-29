@@ -21,6 +21,7 @@
 #include "adc.h"
 #include "dma.h"
 #include "i2c.h"
+#include "spi.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -30,6 +31,7 @@
 #include "stdio.h"
 #include "AS5600.h"
 #include "foc_ctrl.h"
+#include "drv8301.h"
 
 /* USER CODE END Includes */
 
@@ -102,17 +104,17 @@ int main(void)
   MX_USART1_UART_Init();
   MX_TIM2_Init();
   MX_TIM3_Init();
+  MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
     uint32_t ADC_Value[2] = {2048, 2048};
     float ADC_Real[2];
     float Machine_Angle = 0;
 
+    DRV8301_Init();
+
     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);
-
-    //    使能DRV8313的PWM输入
-    HAL_GPIO_WritePin(PWM_EN_GPIO_Port, PWM_EN_Pin, GPIO_PIN_SET);
 
     __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 900);
     __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, 000);

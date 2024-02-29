@@ -99,6 +99,16 @@ build CMakeFiles/FOC_v1.2.elf.dir/Core/Src/main.c.obj: C_COMPILER__FOC_v1.2e2.2e
   TARGET_COMPILE_PDB = CMakeFiles\FOC_v1.2.elf.dir\
   TARGET_PDB = FOC_v1.2.elf.pdb
 
+build CMakeFiles/FOC_v1.2.elf.dir/Core/Src/spi.c.obj: C_COMPILER__FOC_v1.2e2.2eelf_Debug E$:/STM32_Programs/FOC-DRV8313/Core/Src/spi.c || cmake_object_order_depends_target_FOC_v1.2.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\FOC_v1.2.elf.dir\Core\Src\spi.c.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -IE:/STM32_Programs/FOC-DRV8313/Core/Inc -IE:/STM32_Programs/FOC-DRV8313/Drivers/STM32F1xx_HAL_Driver/Inc -IE:/STM32_Programs/FOC-DRV8313/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IE:/STM32_Programs/FOC-DRV8313/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IE:/STM32_Programs/FOC-DRV8313/Drivers/CMSIS/Include -IE:/STM32_Programs/FOC-DRV8313/Hardware
+  OBJECT_DIR = CMakeFiles\FOC_v1.2.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\FOC_v1.2.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FOC_v1.2.elf.dir\
+  TARGET_PDB = FOC_v1.2.elf.pdb
+
 build CMakeFiles/FOC_v1.2.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__FOC_v1.2e2.2eelf_Debug E$:/STM32_Programs/FOC-DRV8313/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_FOC_v1.2.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\FOC_v1.2.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d
@@ -319,6 +329,16 @@ build CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
   TARGET_COMPILE_PDB = CMakeFiles\FOC_v1.2.elf.dir\
   TARGET_PDB = FOC_v1.2.elf.pdb
 
+build CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: C_COMPILER__FOC_v1.2e2.2eelf_Debug E$:/STM32_Programs/FOC-DRV8313/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c || cmake_object_order_depends_target_FOC_v1.2.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\FOC_v1.2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -IE:/STM32_Programs/FOC-DRV8313/Core/Inc -IE:/STM32_Programs/FOC-DRV8313/Drivers/STM32F1xx_HAL_Driver/Inc -IE:/STM32_Programs/FOC-DRV8313/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IE:/STM32_Programs/FOC-DRV8313/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IE:/STM32_Programs/FOC-DRV8313/Drivers/CMSIS/Include -IE:/STM32_Programs/FOC-DRV8313/Hardware
+  OBJECT_DIR = CMakeFiles\FOC_v1.2.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\FOC_v1.2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FOC_v1.2.elf.dir\
+  TARGET_PDB = FOC_v1.2.elf.pdb
+
 build CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C_COMPILER__FOC_v1.2e2.2eelf_Debug E$:/STM32_Programs/FOC-DRV8313/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c || cmake_object_order_depends_target_FOC_v1.2.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\FOC_v1.2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d
@@ -359,6 +379,16 @@ build CMakeFiles/FOC_v1.2.elf.dir/Hardware/AS5600.c.obj: C_COMPILER__FOC_v1.2e2.
   TARGET_COMPILE_PDB = CMakeFiles\FOC_v1.2.elf.dir\
   TARGET_PDB = FOC_v1.2.elf.pdb
 
+build CMakeFiles/FOC_v1.2.elf.dir/Hardware/drv8301.c.obj: C_COMPILER__FOC_v1.2e2.2eelf_Debug E$:/STM32_Programs/FOC-DRV8313/Hardware/drv8301.c || cmake_object_order_depends_target_FOC_v1.2.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\FOC_v1.2.elf.dir\Hardware\drv8301.c.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -IE:/STM32_Programs/FOC-DRV8313/Core/Inc -IE:/STM32_Programs/FOC-DRV8313/Drivers/STM32F1xx_HAL_Driver/Inc -IE:/STM32_Programs/FOC-DRV8313/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IE:/STM32_Programs/FOC-DRV8313/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IE:/STM32_Programs/FOC-DRV8313/Drivers/CMSIS/Include -IE:/STM32_Programs/FOC-DRV8313/Hardware
+  OBJECT_DIR = CMakeFiles\FOC_v1.2.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\FOC_v1.2.elf.dir\Hardware
+  TARGET_COMPILE_PDB = CMakeFiles\FOC_v1.2.elf.dir\
+  TARGET_PDB = FOC_v1.2.elf.pdb
+
 build CMakeFiles/FOC_v1.2.elf.dir/Hardware/foc_ctrl.c.obj: C_COMPILER__FOC_v1.2e2.2eelf_Debug E$:/STM32_Programs/FOC-DRV8313/Hardware/foc_ctrl.c || cmake_object_order_depends_target_FOC_v1.2.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\FOC_v1.2.elf.dir\Hardware\foc_ctrl.c.obj.d
@@ -387,7 +417,7 @@ build CMakeFiles/FOC_v1.2.elf.dir/Hardware/pid.c.obj: C_COMPILER__FOC_v1.2e2.2ee
 #############################################
 # Link the executable FOC_v1.2.elf
 
-build FOC_v1.2.elf: C_EXECUTABLE_LINKER__FOC_v1.2e2.2eelf_Debug CMakeFiles/FOC_v1.2.elf.dir/Core/Src/adc.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/dma.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/gpio.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/i2c.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/main.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/sysmem.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/tim.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/usart.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/FOC_v1.2.elf.dir/Hardware/AS5600.c.obj CMakeFiles/FOC_v1.2.elf.dir/Hardware/foc_ctrl.c.obj CMakeFiles/FOC_v1.2.elf.dir/Hardware/pid.c.obj
+build FOC_v1.2.elf: C_EXECUTABLE_LINKER__FOC_v1.2e2.2eelf_Debug CMakeFiles/FOC_v1.2.elf.dir/Core/Src/adc.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/dma.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/gpio.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/i2c.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/main.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/spi.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/sysmem.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/tim.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Src/usart.c.obj CMakeFiles/FOC_v1.2.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/FOC_v1.2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/FOC_v1.2.elf.dir/Hardware/AS5600.c.obj CMakeFiles/FOC_v1.2.elf.dir/Hardware/drv8301.c.obj CMakeFiles/FOC_v1.2.elf.dir/Hardware/foc_ctrl.c.obj CMakeFiles/FOC_v1.2.elf.dir/Hardware/pid.c.obj
   FLAGS = -g
   LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=E:/STM32_Programs/FOC-DRV8313/cmake-build-debug/FOC_v1.2.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T E:/STM32_Programs/FOC-DRV8313/STM32F103C8TX_FLASH.ld
   OBJECT_DIR = CMakeFiles\FOC_v1.2.elf.dir
