@@ -59,6 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define PWM_EN_Pin GPIO_PIN_3
 #define PWM_EN_GPIO_Port GPIOA
+#define SPI1_CS_Pin GPIO_PIN_4
+#define SPI1_CS_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
